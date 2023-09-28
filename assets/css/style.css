@@ -40,3 +40,8 @@ hr{
     text-decoration: none;
     margin-left: 10px;
 }
+
+.name{
+    font-size: 60px;
+    color: orange;
+}
