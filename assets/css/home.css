@@ -1,0 +1,71 @@
+body{
+    height: 10%;
+    background-image: url('../img/sunset-profile-background.jpg');
+}
+
+.header{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.515);
+    gap: 10px;
+}
+
+.header a{
+    color: white;
+    font-size: 20px;
+}
+
+.header-link{
+    width: 130px;
+    height: 50px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    transition: all ease-in 100ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link:hover{
+    background-color: #E0F0F8;
+    color: #2F9FF8;
+    width: 130px;
+    height: 50px;
+}
+
+
+main{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+main img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main .div-2{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    justify-content: center;
+}
+
+.div-2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.name{
+    font-size: 80px;
+}

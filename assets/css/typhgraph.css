@@ -1,0 +1,17 @@
+.align-justify-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-black{
+    color: black;
+}

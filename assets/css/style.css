@@ -1,47 +1,5 @@
-body{
-    background-color:cornsilk ;
-    width: 90%;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-hr{
-    border: 1px dotted red;
-}
-
-.profile-pic{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.ada-img{
-    border-radius: 15px;
-}
-
-.profile-pic:hover{
-    width: 220px;
-    height: 220px;
-}
-
-.lang-table{
-    padding: 30px;
-    border: 3px solid blue;
-}
-
-.p-10px{
-    padding: 10px;
-}
-
-.header{
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.name{
-    font-size: 60px;
-    color: orange;
-}
+@import url('./reset.css');
+@import url('./font.css');
+@import url('./icon.css');
+@import url('./typhgraph.css');
+@import url('./home.css');
