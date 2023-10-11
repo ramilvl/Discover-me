@@ -1,7 +1,13 @@
-# Simple "Profile Page" using Hyper Text Markup Language
+# Discover Ramil Valiyev
 <br>
-This project is a simple demonstration of creating a "Profile Page" using Hyper Text Markup Language (HTML). HTML is the fundamental language for building web pages, and in this project, we'll use it to create a basic profile page. 
+Welcome to my personal profile website! This digital space is dedicated to providing you with insights into my life, experiences, and interests. Here, you'll find a curated collection of information about me, from my background and achievements to my hobbies and aspirations. It's a place where you can get to know me better and explore the various facets of my personality and journey. Feel free to browse, learn, and discover what makes me who I am. Thank you for visiting, and I hope you enjoy exploring my profile!
 <br>
 
 # Netlify Deployment
+You can also look through the website by clicking provided link below! <br><br>
 https://profile-ramil.netlify.app/
+
+# Installation
+*  Clone the repository: $git clone
+*  Run home.html page
+*  Have a fun :)
