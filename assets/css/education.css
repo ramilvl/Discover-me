@@ -1,6 +1,7 @@
 body{
-    background-image: url('../img/sunset-profile-background.jpg');
-
+    background-image: url('../img/education.jpg');
+    background-repeat: none;
+    background-size: cover;
 }
 
 .header{

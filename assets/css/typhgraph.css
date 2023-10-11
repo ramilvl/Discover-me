@@ -16,12 +16,20 @@
     color: black;
 }
 
+.color-white{
+    color: #fff;
+}
+
 .text-size-40px{
     font-size: 40px;
 }
 
 .font-550{
     font-weight: 550;
+}
+
+.font-600{
+    font-weight: 600;
 }
 
 .line{

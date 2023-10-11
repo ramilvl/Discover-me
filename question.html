@@ -5,42 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Give Question</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/question.css">
 </head>
 <body>
-    <a class="header" href="./home.html">Home</a>
-    <a class="header" href="./education.html">Education</a>
-    <a class="header" href="./question.html">Send question</a>
-    <a class="header" href="./contact.html">Contact Me</a>
+
+    <header class="header flex-row">
+        <a class="header-link" href="./home.html">Home</a>
+        <a class="header-link" href="./education.html">Education</a>
+        <a class="header-link" href="./question.html">Q&A</a>
+        <a class="header-link" href="./contact.html">Contact</a>
+        <a class="header-link" href="./digital-card.html">Digital Card</a>
+        <a class="header-link" href="https://github.com/ramilvl/WM1_fall_23" target="_blank">G Account</a>
+        <a class="header-link" href="">G Page</a>
+    </header>
 
 
-    <form action="mailto:rvaliyev11988@ada.edu.az" method="post" enctype="text/plain">
-        <br><br>
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Enter Name" required> <br><br>
+    <main>
+        <div class="container">
+            <form action="mailto:rvaliyev11988@ada.edu.az" method="post" enctype="text/plain">
+                <h1 class="text-size-40px font-600 color-white">Ask a question</h1>
 
-        <label for="surname">Surname</label>
-        <input type="text" id="surname" placeholder="Enter Surname"> <br><br>
-
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" checked> 
-
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" checked> <br><br>
-
-        <fieldset>
-            <legend>What kind of question it is related?</legend>
+                <div class="name-surname-input">
+                    <input type="text" id="name" placeholder="Name" required> 
+                    <input type="text" id="surname" placeholder="Surname">
+                </div>
         
-            <label for="career">Career</label>
-            <input type="checkbox" id="career" name="question">
+                <div class="gender-input">
+                    <label class="color-white" for="male">Male</label>
+                    <input type="radio" name="gender" id="male" checked> 
+            
+                    <label class="color-white" for="female">Female</label>
+                    <input type="radio" name="gender" id="female" checked> 
+                </div>
+        
+                <fieldset class="q-a">
+                    <span>What kind of question it is related?</span>
+                
+                    <div class="q-choose">
+                        <div>
+                            <label for="career">Career</label>
+                            <input type="checkbox" id="career" name="question">
+                        </div>
+            
+                        <div>
+                            <label for="lifestyle">Lifestyle</label>
+                            <input type="checkbox" id="lifestyle" name="question">
+                        </div>
+            
+                        <div>
+                            <label for="pers_development">Personal Development</label>
+                            <input type="checkbox" name="question" id="pers_development">
+                        </div>
+                    </div>
 
-            <label for="lifestyle">Lifestyle</label>
-            <input type="checkbox" id="lifestyle" name="question">
-
-            <label for="pers_development">Personal Development</label>
-            <input type="checkbox" name="question" id="pers_development">
-        </fieldset> <br><br>
-
-        <button value="submit">Send</button>
-    </form>
+                </fieldset>
+        
+                <button class="btn" value="submit">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
