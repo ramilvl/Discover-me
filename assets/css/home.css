@@ -1,5 +1,4 @@
 body{
-    height: 10%;
     background-image: url('../img/sunset-profile-background.jpg');
 }
 
@@ -62,8 +61,8 @@ main .div-2{
 }
 
 .div-2 img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .name{

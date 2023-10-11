@@ -15,3 +15,15 @@
 .color-black{
     color: black;
 }
+
+.text-size-40px{
+    font-size: 40px;
+}
+
+.font-550{
+    font-weight: 550;
+}
+
+.line{
+    line-height: 1.42857143;
+}
