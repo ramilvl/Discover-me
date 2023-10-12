@@ -25,6 +25,12 @@ body{
     height: 50px;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .img-class img{
     width: 250px;
     height: 250px;
