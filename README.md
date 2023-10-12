@@ -9,5 +9,5 @@ https://profile-ramil.netlify.app/
 
 # Installation
 *  Clone the repository: $git clone
-*  Run home.html page
+*  Run index.html page
 *  Have a fun :)
