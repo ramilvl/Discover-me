@@ -12,6 +12,13 @@
     justify-content: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .color-black{
     color: black;
 }
@@ -20,8 +27,20 @@
     color: #fff;
 }
 
+.text-size-18px{
+    font-size: 18px;
+}
+
+.text-size-20px{
+    font-size: 20px;
+}
+
 .text-size-40px{
     font-size: 40px;
+}
+
+.text-size-80px{
+    font-size: 80px;
 }
 
 
@@ -35,4 +54,28 @@
 
 .line{
     line-height: 1.42857143;
+}
+
+.p-20px{
+    padding: 20px;
+}
+
+.p-40px{
+    padding: 40px;
+}
+
+.gap-20px{
+    gap: 20px;
+}
+
+.gap-50px{
+    gap: 50px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.radius-8{
+    border-radius: 8px;
 }

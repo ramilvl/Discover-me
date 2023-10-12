@@ -8,12 +8,7 @@ body{
     gap: 10px;
 }
 
-.header a{
-    color: white;
-    font-size: 20px;
-}
-
-.header-link{
+.navbar{
     width: 130px;
     height: 50px;
     border-top-right-radius: 9999px;
@@ -21,36 +16,23 @@ body{
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
     transition: all ease-in 100ms;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.header-link:hover{
+.navbar:hover{
     background-color: #E0F0F8;
     color: #2F9FF8;
     width: 130px;
     height: 50px;
 }
 
-
-main{
-    padding: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    gap: 50px;
-}
-
-main img{
+.img-class img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-main .div-2{
+.profile-detail{
     width: 330px;
     height: 300px;
     display: flex;
@@ -60,20 +42,7 @@ main .div-2{
     justify-content: center;
 }
 
-.div-2 img{
+.profile-detail img{
     width: 30px;
     height: 30px;
-}
-
-.name{
-    font-size: 80px;
-}
-
-
-
-@media only screen and (max-width: 600px){
-    main img{
-        width: 100px;
-        height: 100px;
-    }
 }

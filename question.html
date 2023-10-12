@@ -10,22 +10,22 @@
 <body>
 
     <header class="header flex-row">
-        <a class="header-link" href="./home.html">Home</a>
-        <a class="header-link" href="./education.html">Education</a>
-        <a class="header-link" href="./question.html">Q&A</a>
-        <a class="header-link" href="./contact.html">Contact</a>
-        <a class="header-link" href="./digital-card.html">Digital Card</a>
-        <a class="header-link" href="https://github.com/ramilvl/WM1_fall_23" target="_blank">G Account</a>
-        <a class="header-link" href="">G Page</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="./index.html">Home</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="./education.html">Education</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="./question.html">Q&A</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="./contact.html">Contact</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="./digital-card.html">Digital Card</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="https://github.com/ramilvl/WM1_fall_23" target="_blank">G Account</a>
+        <a class="navbar text-size-20px color-white align-justify-center" href="">G Page</a>
     </header>
 
 
-    <main>
+    <main class="align-justify-center">
         <div class="container">
             <form action="mailto:rvaliyev11988@ada.edu.az" method="post" enctype="text/plain">
                 <h1 class="text-size-40px font-600 color-white">Ask a question</h1>
 
-                <div class="name-surname-input">
+                <div class="name-surname-input flex-row">
                     <input type="text" id="name" placeholder="Name" required> 
                     <input type="text" id="surname" placeholder="Surname">
                 </div>
@@ -41,7 +41,7 @@
                 <fieldset class="q-a">
                     <span>What kind of question it is related?</span>
                 
-                    <div class="q-choose">
+                    <div class="q-choose flex-column">
                         <div>
                             <label for="career">Career</label>
                             <input type="checkbox" id="career" name="question">
@@ -60,7 +60,7 @@
 
                 </fieldset>
         
-                <button class="btn" value="submit">Submit</button>
+                <button class="btn radius-8 cursor" value="submit">Submit</button>
             </form>
         </div>
     </main>

@@ -2,6 +2,7 @@ body{
     background-image: url('../img/contact-img.jpg');
     background-repeat: none;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .header{
@@ -10,12 +11,7 @@ body{
     gap: 10px;
 }
 
-.header a{
-    color: white;
-    font-size: 20px;
-}
-
-.header-link{
+.navbar{
     width: 130px;
     height: 50px;
     border-top-right-radius: 9999px;
@@ -23,12 +19,9 @@ body{
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
     transition: all ease-in 100ms;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.header-link:hover{
+.navbar:hover{
     background-color: #E0F0F8;
     color: #2F9FF8;
     width: 130px;
