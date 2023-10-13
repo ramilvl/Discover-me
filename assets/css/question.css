@@ -50,6 +50,11 @@ main{
     gap: 30px;
 }
 
+.container form h1{
+    display: flex;
+    justify-content: center;
+}
+
 .name-surname-input{
     gap: 15px;
 }
